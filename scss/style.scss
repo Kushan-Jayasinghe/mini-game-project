@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100hv;
+    overflow: hidden;
+    background-image: url('/img/graveyardtilesetnew/png/BG.png') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#player:first-child{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    // background-color: red;
+    background-image: url('../img/ninjaadventurenew/png/Idle__001.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 800px;
+    z-index: 1;
+}
+#play{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    // background-color: red;
+    background-image: url('../img/ninjaadventurenew/png/Attack__006.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 800px;
+    right:100px;
+   
+}
+#ground{
+    background-image: url('../img/graveyardtilesetnew/png/Tiles/Tile\ \(2\).png');
+    width: 100vw;
+    position: absolute;
+    height: 150px;
+    bottom: 0px;
+    
+}
+.turn{
+    transform: rotateY(180deg);
+}
+
+#tree{
+    background-image: url('../img/graveyardtilesetnew/png/Objects/Tree.png');
+    position: absolute;
+    width: 200px;
+    background-repeat: no-repeat;
+    height: 290px;
+    bottom: 100px;
+    right:150px;
+}
+
+
