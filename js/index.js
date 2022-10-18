@@ -47,13 +47,13 @@ let index=0;
 // },17);
 const draw= ()=>{
             if (dx !==0){
-                Player.style.backgroundImage = `url('../img/ninjaadventurenew/png/Run__00${index++}.png')`;
+                Player.style.backgroundImage = `url('img/ninjaadventurenew/png/Run__00${index++}.png')`;
         
             }else if(dy !==0){
-                Player.style.backgroundImage = `url('../img/ninjaadventurenew/png/Jump__00${index++}.png')`;
+                Player.style.backgroundImage = `url('img/ninjaadventurenew/png/Jump__00${index++}.png')`;
         
             }else{
-                Player.style.backgroundImage = `url('../img/ninjaadventurenew/png/Idle__00${index++}.png')`;
+                Player.style.backgroundImage = `url('img/ninjaadventurenew/png/Idle__00${index++}.png')`;
             }
             
             if (index>9) index=1;
@@ -203,13 +203,13 @@ let index1=0;
 // },17);
 const draw1= ()=>{
             if (dx1 !==0){
-                Play.style.backgroundImage = `url('../img/ninjaadventurenew/png/Run__00${index++}.png')`;
+                Play.style.backgroundImage = `url('img/ninjaadventurenew/png/Run__00${index++}.png')`;
         
             }else if(dy1 !==0){
-                Play.style.backgroundImage = `url('../img/ninjaadventurenew/png/Jump__00${index++}.png')`;
+                Play.style.backgroundImage = `url('img/ninjaadventurenew/png/Jump__00${index++}.png')`;
         
             }else{
-                Play.style.backgroundImage = `url('../img/ninjaadventurenew/png/Attack__00${index++}.png')`;
+                Play.style.backgroundImage = `url('img/ninjaadventurenew/png/Attack__00${index++}.png')`;
             }
             
             if (index1>9) index1=1;
